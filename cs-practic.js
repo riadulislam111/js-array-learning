@@ -153,3 +153,19 @@
 
 
 
+// let num1 = 23;
+// let num2 = 45;
+// let num3 = 55;
+
+// let average = (num1 + num2 + num3) / 3;
+
+// console.log(average)
+
+// let score = 40;
+// score += 10;
+// console.log(score)
+// score *= 2;
+// console.log(score)
+// score -= 5;
+
+// console.log(score)
