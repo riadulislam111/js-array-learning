@@ -167,3 +167,17 @@
 // console.log(numbers)
 // console.log(firstItem)
 
+// let choice;
+
+// do {
+//   choice = prompt(
+//     "1. View Profile\n2. Settings\n3. Exit\nEnter your choice:"
+//   );
+
+//   console.log("You selected:", choice);
+
+// } while (choice !== "3");
+
+// console.log("Program exited.");
+
+
