@@ -365,3 +365,119 @@
 // }
 
 
+// let num = 10;
+
+// for(let i = 1; i <= num; i++){
+//     console.log(i)
+// }
+
+
+// for(let i = 1; i <= 10; i++) {
+//     console.log(i)
+// }
+
+
+// let n = 10;
+// let sum = 0;
+// let i = 1;
+
+// while(i <= n){
+//     sum += i;
+//     i++;
+// }
+// console.log(sum)
+
+
+
+// for(let i = 1; i <= 50; i++){
+//     if(i % 2=== 0){
+//         console.log("Even:", i)
+//     }else{
+//         continue;
+//     }
+// }
+
+
+
+
+// for(let i = 1; i <= 50; i++){
+//     if(i % 3 === 0 && i % 5 === 0){
+//         console.log(i);
+//     }
+// }
+
+
+
+
+
+// wrong 
+// let sum = 0;
+// // for(let i = 1; i <= 10; i++){
+// //     sum += i;
+// //     console.log(sum)
+// // }
+
+
+// let i = 0;
+
+// while(i <= 10){
+//     sum += i;
+    
+//     console.log(sum)
+//     i++;
+
+
+// }
+
+
+// for loop
+
+// let number = 1234;
+// let sum = 0;
+
+// for(number > 0; number = Math.floor(number / 10)){
+//     let digit = number % 10;
+//     sum += digit;
+// }
+
+// console.log("Sum of digits:", sum)
+
+
+
+
+
+
+
+// let number = 1234;
+// let sum = 0;
+
+// while (number > 0) {
+//     let digit = number % 10;
+//     sum += digit;
+//     number = Math.floor(number / 10);
+// }
+
+// console.log("Sum of digits:", sum)
+
+
+
+
+
+// for(let i = 0; i <= 20; i++){
+//     if(i === 15){
+         
+//         break;
+       
+//     }
+//     console.log(i)
+// }
+
+
+// for(let i = 1; i <=50; i++){
+//     if(i === 40){
+//         break;
+//     }
+//     console.log(i)
+// }
+
+
