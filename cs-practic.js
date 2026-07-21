@@ -215,3 +215,18 @@
 // }
 
 
+
+
+// let age = 20;
+// let hasId = true;
+
+// if(age >= 18 && hasId === true) {
+//     console.log("You voting now")
+// }
+// else{
+//     console.log('You not eligible')
+// }
+
+
+
+
