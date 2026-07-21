@@ -169,3 +169,49 @@
 // score -= 5;
 
 // console.log(score)
+
+
+
+
+// const gpa = 5.0;
+// const age = 19;
+// const isStudent = true;
+
+
+
+// // AND - both must be true 
+// if(gpa >= 5.0 && age >= 18) {
+//     console.log('Eligible for admission');
+// }
+
+
+// // OR - at least one must be true 
+// if(isStudent || isWeekend) {
+//     console.log("Your get a discount")
+// }
+
+
+// // NOT - filips the boolean 
+
+// const isPassed = false;
+// if(!isPassed) {
+//     console.log('Student needs to retake the exm')
+// }
+// else{
+//     console.log("ewfsdds")
+// }
+
+
+// let number = -4;
+
+// if(number > 0){
+//     console.log("Positive Number")
+// }
+// else if (number < 0) {
+//     console.log("Negative")
+// }
+// else{
+//     console.log("zero")
+// }
+
+
