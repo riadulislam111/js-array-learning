@@ -481,3 +481,73 @@
 // }
 
 
+
+// for(let i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         console.log(i)
+//     }
+// }
+
+
+// let number = 5;
+// let factorial = 1;
+// let i = 1;
+
+// while (i <= number){
+//     factorial *= i;
+//     i++;
+// }
+// console.log(factorial);
+
+
+
+// let i = 10;
+
+// do{
+//     console.log(i);
+//     i--;
+// }while(i >= 1)
+
+
+// let i = 10;
+
+// while (i >= 1){
+//     console.log(i);
+//     i--;
+// }
+
+
+// let number = 5;
+// let factorial = 1;
+
+// for(let i = 1; i <= number; i++){
+//     factorial *= i;
+// }
+
+// console.log(factorial)
+
+
+
+// let i = 1 ;
+
+// do{
+//     if(i % 2 !== 0){
+//         console.log(i);
+//     }
+//     i++;
+// } while(i <= 100)
+
+
+
+// let count = 0;
+
+// for(let i = 1; i <= 100; i++){
+//     if(i % 7 !== 0){
+//         continue;
+//     }
+//     count++;
+//     console.log(i)
+// }
+// console.log("toal numbar", count);
+
+
