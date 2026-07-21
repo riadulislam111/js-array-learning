@@ -230,3 +230,138 @@
 
 
 
+// let marksGot = 39;
+// let passMarks = 40;
+
+// if(marksGot >= passMarks) {
+//     console.log("pass")
+// }
+// else{
+//     console.log("Fail")
+// }
+
+// let num1 = 20;
+// let num2 = 30;
+// let num3 = 40;
+
+// if(num1 < num2 < num3) {
+//     console.log('large num')
+// }
+
+
+// let num1 = 20;
+// let num2 = 30;
+// let num3 = 40;
+
+
+// if(num1 >= num2 && num1 >= num3){
+//     console.log( num1, "num1 is the largest")
+// }
+// else if(num2 >= num1 && num2 >= num3) {
+//     console.log(num2, "this is the largest")
+// }
+// else{
+//     console.log(num3 + 'this is the largest')
+// }
+
+
+
+// let number = 45;
+
+// let evenOdd = number % 2 === 0 ? 'Even': 'Odd';
+
+// console.log(evenOdd);
+
+
+// let years = 2028;
+
+// if (years % 4 === 0){
+//     console.log("leap year")
+// }
+// else{
+//     console.log('not leap year')
+// }
+
+
+// let year = 1980;
+
+// if((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0){
+//     console.log("Leap Year")
+// }else{
+//     console.log("Not a Leap Year");
+// }
+
+
+
+
+// let marks = 65;
+
+// if (marks >= 40){
+//     console.log("Pass");
+// }
+// else{
+//     console.log("Fail");
+// }
+
+
+
+// let personAge = 62;
+
+// if(personAge <=12){
+//     console.log("Child")
+// }
+// else if(personAge <= 19){
+//     console.log("Teen");
+// }
+// else if(personAge <= 59){
+//     console.log("Adult");
+// }
+// else{
+//     console.log("Senior")
+// }
+
+
+
+// let age = 12;
+// let hasValidID = true;
+
+// if(age >= 18 && hasValidID) {
+//     console.log("Eligible for a driving license");
+// }
+// else{
+//     console.log("Not eligible for a driving license")
+// }
+
+
+
+// let character = "o";
+
+// if(character === "a" ||
+//      character === "e" ||
+//       character === "i" || 
+//       character === "o" || 
+//       character  === "u"
+//     ){
+//    console.log("Vowel")
+// }else{
+//     console.log("Consonant")
+// }
+
+
+
+// let isLoggedIn = false;
+
+// if(!isLoggedIn){
+//     console.log("Please log in.");
+// }else{
+//     console.log("Welcome back!");
+// }
+
+
+// let isLightOn = false;
+
+// if(!isLightOn){
+//     console.log("Switch is OFF")
+// }
+
+
