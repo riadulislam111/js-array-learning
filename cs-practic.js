@@ -117,12 +117,39 @@
 // console.log("b =", b);
 
 
-let lives = 5;
-let coins = 40;
+// let lives = 5;
+// let coins = 40;
 
-lives--;
+// lives--;
 
-coins /= 2;
+// coins /= 2;
 
-console.log("lives:", lives);
-console.log("coins:", coins);
+// console.log("lives:", lives);
+// // console.log("coins:", coins);
+
+
+// let movieName = "Zero";
+// let releaseYear = 2012;
+// let rating = 5.5;
+
+// console.log("Movie :", movieName);
+// console.log("Realse Date:", releaseYear);
+// console.log("Rating:", rating);
+
+
+// let length = 30;
+// let width = 10;
+
+// let area = length * width;
+// let perimerer = 2 * (length + width);
+// console.log(area);
+// console.log(perimerer);
+
+// let taka = 500;
+// let perUsd = 110;
+
+// let convert = taka / perUsd;
+// console.log(convert)
+
+
+
