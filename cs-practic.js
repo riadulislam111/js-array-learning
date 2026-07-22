@@ -550,4 +550,166 @@
 // }
 // console.log("toal numbar", count);
 
+let age = [23, 45, 56, 46]
+let nums = [10, 20, 30, 40, 50];
+// console.log(nums.slice(1, 3));
+// nums.splice(1, 2, 99);
+// console.log(nums)
+// console.log(nums.indexOf(40));
+// console.log(nums.includes(99));
+// console.log(nums.includes(99))
+// console.log(nums.join("-"))
+let merged = nums.concat(age);
+// console.log(merged)
+// console.log(Array.isArray(nums))
+// console.log(typeof nums)
+
+
+
+let fruits = ["apple", "mango", "Banana", "orange", "Grapes"];
+// fruits.push("new fruits");
+// // console.log(fruits);
+// fruits.pop();
+// // console.log(fruits);
+
+// let numbers = [23,34,45,45,56,67];
+
+// for(let i = 0; i < numbers.length; i++) {
+//     console.log("Index:", i , "Value:", numbers[i])
+// }
+
+
+
+// let reversed = [];
+
+// for(let i = numbers.length - 1; i >= 0; i--){
+//     reversed.push(numbers[i])
+// }
+// console.log(reversed)
+
+
+// let sum = 0;
+
+// for(let i = 0; i <numbers.length; i++){
+//     sum += numbers[i]
+// }
+
+// let average = sum / numbers.length;
+
+// console.log("Sum:", sum);
+// console.log("Average;", average);
+
+
+// let numbers = [10, 15, 20, 25, 30, 35, 40];
+// let count = 0;
+
+// for(let i = 0; i < numbers.length; i++){
+//     if(numbers[i] % 2 === 0) {
+//         count++;
+//     }
+// }
+
+// console.log("Even numbers:", count);
+
+
+// let numbers = [12, 34,45, 56, 67,789 ,89];
+
+// let largest = numbers[0];
+// let secondLargest = numbers[0];
+
+// for(let i = 1; i < numbers.length; i++){
+//     if(numbers[i] > largest){
+//         secondLargest = largest;
+//         largest = numbers[i]
+//     } else if (numbers[i] > secondLargest && numbers[i] !== largest) {
+//         secondLargest = numbers[i];
+//     }
+// }
+
+// console.log("Largest:", largest);
+// console.log("Second Largest:", secondLargest);
+
+
+// let numbers = [10, 20, 30, 40, 50, 60, 70];
+// // let middle = numbers.slice(2, 5);
+
+// // console.log("Middle elements:", middle);
+// // console.log("Original array:", numbers);
+
+// let removeElements = numbers.splice(1, 2, 34, 56);
+// console.log("numbers:", numbers);
+// console.log("removed:", removeElements)
+
+
+// let names = ["raidul", "sakib", "hasan", "nayeem", "karim"];
+
+// console.log("Before:", names);
+
+// names.splice(1, 2, "Rahim", "jamal");
+// console.log("After:", names)
+
+
+// let numbers = [10, 20, 30, 40, 50];
+
+// numbers.unshift(5);
+// console.log("After unshift:", numbers);
+
+// numbers.shift();
+// console.log("After shift:", numbers);
+
+
+// let numbers  = [12,66 ,34,45,56,677];
+// let largest = numbers[0];
+
+// for(let i = 1; i < numbers.length; i++) {
+// //     if(numbers[i] > largest){
+// //         largest = numbers[i];
+// //     }
+// }
+
+// console.log("Largest numbers:", largest)
+
+
+// let numbers = [45, 12, 45, 67, 8,898];
+
+// numbers.sort((a, b) => a - b);
+// console.log(numbers);
+
+
+// let numbers = [10, 20, 30, 40, 50];
+// let value = 30;
+
+// let found = false;
+
+// for(let i = 0; i < numbers.length; i++) {
+//     if(numbers[i] === value) {
+//         found = true;
+//         break;
+//     }
+// }
+
+// console.log(found);
+
+
+
+let numbers = [10, 20, 30, 40, 40, 30, 50, 30];
+let uniqueNumbers = [];
+
+for(let i = 0;  i < numbers.length; i++) {
+    let exists = false;
+
+    for(let j = 0; j < uniqueNumbers.length; j++){
+        if(numbers[i] === uniqueNumbers[j]){
+            exists = true;
+            break;
+        }
+    }
+    if(!exists) {
+        uniqueNumbers.push(numbers[i]);
+    }
+}
+
+
+// console.log(uniqueNumbers);
+
 
